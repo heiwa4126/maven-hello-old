@@ -1,2 +1,2 @@
 #!/bin/sh -ue
-java -cp target/classes/ com.example.app.App
+mvn exec:java

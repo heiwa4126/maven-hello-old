@@ -4,14 +4,15 @@
 - executable な fatJARを作る。
 
 もとは
-
 ```bash
-mvn archetype:generate
--DarchetypeArtifactId=maven-archetype-quickstart
--DinteractiveMode=false
--DgroupId=com.sample
+mvn -B archetype:generate \
+-DarchetypeArtifactId=maven-archetype-quickstart \
+-DinteractiveMode=false \
+-DarchetypeVersion=1.4 \
+-DgroupId=com.sample \
 -DartifactId=hello
 ```
+
 で作って、POMを一生懸命修正したもの。
 
 
